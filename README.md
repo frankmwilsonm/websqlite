@@ -1,6 +1,6 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SQLite%20Viewer-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2497)
 
-WebSQLite Beta V 1.0.1
+WebSQLite Beta V 1.0
 ============
 
 *Mira tus archivos SQLite online. Usando [sql.js](https://github.com/kripken/sql.js/) para analizar archivos sqlite.*
