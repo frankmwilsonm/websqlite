@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <meta charset="utf-8">
@@ -29,9 +29,9 @@
     <div id="header">
         <div class="row">
             <div class="col-xs-6">
-                <img src="img/logo.svg" class="img-responsive pull-left" style="margin-right: 16px;"/>
-                <h3>SQLite Viewer</h3>
-                <p>view sqlite file online</p>
+                <img src="img/logo.svg" style="filter: brightness(0.9); mix-blend-mode: hard-light;" class="img-responsive pull-left" style="margin-right: 16px;"/>
+                <h3>WebSQLite</h3>
+                <p>Mira tus archivos sqlite online</p>
             </div>
             <div class="col-xs-6">
                 <a href="#" id="resizer" class="pull-right">
@@ -51,12 +51,12 @@
 
     <div class="panel panel-info" id="dropzone" onclick="dropzoneClick(this)">
         <div id="drop-text" class="panel-body">
-            <b>Drop file here</b> to load content or click on this box to open file dialog.<br/>
+            <b>Suelta el archivo aquí</b> para cargar contenido o haga clic en este cuadro para abrir el cuadro de diálogo de archivo.<br/>
 
-            <div class="nouploadinfo small">No file will be uploaded - uses only JavaScript HTML5 FileReader.<br/><br/>
+            <div class="nouploadinfo small"><!-- No file will be uploaded - uses only JavaScript HTML5 FileReader. --><br/><br/>
             </div>
             
-            <a id="sample-db-link" class="no-propagate small" href="examples/Chinook_Sqlite.sqlite">&hellip; or download &amp; try this sample file</a>
+            <a id="sample-db-link" class="no-propagate small" href="examples/Chinook_Sqlite.sqlite">&hellip; O Descarga &amp; este archvio SQLite de pureba.</a>
         </div>
         <div id="drop-loading" class="panel-body" style="display: none">
             <span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> <b>Processing file ...</b>
@@ -112,16 +112,16 @@
 
 <div class="container">
     <footer>
-        &copy; 2020, Juraj Novák<br>
-        <small>| <a href="http://inloop.github.io/">other projects</a> |</small>
+        &copy; 2022, Forked by Frank Wilson<br>
+        <small>| <a href="https://github.com/frankmwilsonm">All projects</a> |</small>
     </footer>
 </div>
 
 <input type="file" id="dropzone-dialog" style="opacity: 0;display:none">
 
-<div class="ribbon right grey hidden-xs">
+<!-- <div class="ribbon right grey hidden-xs">
     <a href="https://github.com/inloop/sqlite-viewer">Fork me on GitHub</a>
-</div>
+</div> -->
 
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/filereader.js"></script>
