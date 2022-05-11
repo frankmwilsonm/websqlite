@@ -1,6 +1,6 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SQLite%20Viewer-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2497)
 
-SQLite Viewer
+WebSQLite
 ============
 
 *View SQLite file online. Uses [sql.js](https://github.com/kripken/sql.js/) for parsing sqlite files.*
