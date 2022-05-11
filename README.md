@@ -5,7 +5,7 @@ WebSQLite Beta
 
 *Mira tus archivos SQLite online. Usando [sql.js](https://github.com/kripken/sql.js/) para analizar archivos sqlite.*
 
-You can also load remote files (using JS ajax, remote server must send `Access-Control-Allow-Origin:*`):
+También puede cargar archivos remotos (using JS ajax, remote server must send `Access-Control-Allow-Origin:*`):
 `http://inloop.github.io/sqlite-viewer/?url=http://example.com/data.sqlite`
 
 ![](/img/preview.png?raw=true "Example sqlite")
